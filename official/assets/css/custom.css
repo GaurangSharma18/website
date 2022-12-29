@@ -413,25 +413,7 @@ main {
     margin-left:2rem;
 }
 
-@media (max-width: 1000px) {
-    .timelineWrapper ul li .content {
-        width:30rem;
-    }
-    .timelineWrapper ul li:nth-child(even) .content {
-        left:5rem;
-    }
-}
-
 @media (max-width: 1400px) {
-    .timelineWrapper ul li .content {
-        width:55rem;
-    }
-    .timelineWrapper ul li:nth-child(even) .content {
-        left:5rem;
-    }
-}
-
-@media (max-width: 768px) {
     .projectsWrapper .partialSlider .carousel-inner .carousel-item > div {
         display: none;
     }
@@ -439,10 +421,83 @@ main {
         display: block;
     }
     .timelineWrapper ul li .content {
-        width:25rem;
+        width:100%;
     }
     .timelineWrapper ul li:nth-child(even) .content {
-        left:5rem;
+        left:0;
+    }
+    .timelineWrapper ul li {
+        width:100%;
+    }
+
+    .timelineWrapper ul li:nth-child(odd) .content {
+        left:0;
+    }
+
+    .InterestsWrapper .singleContainer {
+        width:100%;
+    }
+
+    .container, .container-sm {
+        max-width: 100%;
+    }
+
+    .skillsContainer,.verticalContainer {
+        width: 95%;
+        display: block;
+        margin: 1rem auto;
+        padding: 0.1rem;
+    }
+
+    .skillWrapper {
+        display:block;
+        width:100%;
+        margin-bottom:2rem;
+    }
+
+    .sectionWrapper ul {
+        padding:0;
+    }
+
+    .contactsWrapper {
+        margin:0 auto;
+    }
+
+
+    .selfDesc {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
+    .summary {
+        margin:0;
+    }
+
+    .heroButtons {
+        text-align: center;
+        margin: 0;
+        display: block;
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .skillVerticalWrapper {
+        display:block;
+    }
+
+    .projectsWrapper .projectresults .resultsImg {
+        margin-bottom:1rem;
+    }
+
+    .timelineWrapper ul li {
+        padding: 2rem 1rem;
+    }
+
+    .timelineWrapper ul li .content .contentWrapper {
+        display: block;
+        vertical-align: top;
+        width: 100%;
+        margin-top: 1rem;
     }
 }
 
