@@ -413,6 +413,18 @@ main {
     margin-left:2rem;
 }
 
+.Vid_container {
+    padding: 2rem;
+    display: inline-block;
+    background-color: #DFD3C3;
+    margin: 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.Videos {
+    text-align: center;
+}
+
 @media (max-width: 1400px) {
     .projectsWrapper .partialSlider .carousel-inner .carousel-item > div {
         display: none;
