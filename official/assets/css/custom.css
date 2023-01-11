@@ -437,7 +437,7 @@ main {
     text-align: center;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1000px) {
     .projectsWrapper .partialSlider .carousel-inner .carousel-item > div {
         display: none;
     }
