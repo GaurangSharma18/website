@@ -407,6 +407,18 @@ main {
     margin:2rem;
 }
 
+.resultsImg {
+    width:100%;
+}
+
+.orgLink {
+    color:inherit;
+}
+
+.orgLink:hover {
+    color:#5f2c45;
+}
+
 .selfName {
     font-size:4rem;
     margin-top:2rem;
